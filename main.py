@@ -21,8 +21,8 @@ RATIO = {1.7777777777777777: '16:9',
          1: '1'}
 
 SUMMARY_URL = 'https://api.mage.space/api/v1/notifications/summary'
-prompt = "RAW photo of young cute naked girl with big ass. The perfect ass. She is young and beautiful. Girl is showing her perfect ass. extremely pale skin, no underwear, pretty cute feminine, messy hair, big ass, emo, detailed face, prismatic infrared lighting, RAW, photo, analog style, depth of field, atmospheric, highly detailed, UHD, depth of field, both eyes the same, masterpiece, high resolution, ultra quality, 16K, skin pores, matte, detailed lips, skin texture, 8k UHD"
-negative_prompt = "Ugly face, disfigured, conjoined twins, handicapped, deformed, amputated, crosseyed, blurry, elongated neck, Disney, claws, broken hands, broken fingers, bent, low resolution, text, logos, digital paint, jpeg artefacts, asymmetrical eyes, cropped, fake breasts, flat light, high gamma, extra nipples, underwear, bra, bra-straps, adult, cartoon, asian, 3d, monochrome"
+prompt = ""
+negative_prompt = ""
 
 
 daty = {"prompt": prompt,

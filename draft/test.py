@@ -61,10 +61,10 @@ async def __main__(data1, data2):
 
 url_generate = "https://api.mage.space/api/v3/images/generate"
 url_home = "https://www.mage.space/"
-prompt = "RAW photo of young cute naked girl, full length, young, full body, extremely pale skin, no underwear, nipple bumps fabric, pretty cute feminine, messy dyed hair, ass, emo, eyeliner, blush, detailed face, lipstick, prismatic/infrared lighting, home, room, RAW, photo, analog style, depth of field, atmospheric, highly detailed, UHD, depth of field, both eyes the same, masterpiece, high resolution, ultra quality, 16K, skin pores, matte, detailed lips, skin texture, 8k UHD"
-negative_prompt = "Ugly face, disfigured, conjoined twins, handicapped, deformed, amputated, crosseyed, blurry, elongated neck, Disney, claws, broken hands, broken fingers, bent, low resolution, text, logos, digital paint, jpeg artefacts, asymmetrical eyes, cropped, fake breasts, flat light, high gamma, extra nipples, underwear, bra, bra-straps, adult, cartoon, asian, 3d"
+prompt = ""
+negative_prompt = ""
 request_data1 = RequestData(prompt=prompt, negative_prompt=negative_prompt, num_inference_steps=75, model='urpm')
-request_data2 = RequestData(prompt='full body naked girl, '+prompt, negative_prompt=negative_prompt, num_inference_steps=85, model='urpm')
+request_data2 = RequestData(prompt=prompt, negative_prompt=negative_prompt, num_inference_steps=85, model='urpm')
 
 with open('token.pkl', 'rb') as file:
     token_data = pickle.load(file)

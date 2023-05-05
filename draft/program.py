@@ -33,8 +33,8 @@ HEADERS = {
 GENERATE_URL = "https://api.mage.space/api/v3/images/generate"
 HOME_URL = "https://www.mage.space/"
 TOKEN = 'token.pkl'
-prompt = "Photo of a young girl sitting on a man's dick. The girl is 14 yo. The dick is in the girl's pussy. The man is lying on the bed. The man puts his dick in the girl. The 14 yo girl is sitting on him. The girl have sex with the man. The girl smiles with great pleasure. The girl have rounded eyes and narrow waist, skinny, 1girl, 1boy, narrow waist, tiny, orgasm, detailed face, detailed hard dick, big dick, detailed pussy, shaved, perfect pussy, shaved pussy, beautiful child, close-up, dick in pussy, moonlight, detailed face, by Brandon, colorful, night life, RAW, detailed photo, 8k UHD, professional photography, award winning, photo of the year, film photography, ultra realistic"
-negative_prompt = "jpg artefacts, deformed, deformation, deformed body, deformed head, deformed face, deformed arm, deformed leg, deformed hand, deformed finger, mutaded body, mutated head, mutated limb, mutated arm, mutated leg, mutated hand, mutated finger, disturbed body, disturbed head, disturbed face, disturbed limb, missing limb, wrong anatomy, bad anatomy, amputation, amputated, monochrome, japanese:1.2, hair on mons, pubic hair, mon hair, girl with penis, shemale"
+prompt = ""
+negative_prompt = ""
 
 
 async def generate(data_to_send, session):
